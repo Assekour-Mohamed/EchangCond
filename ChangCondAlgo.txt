@@ -1,0 +1,16 @@
+Algorithme ChangCondAlgo
+Variables 
+    n,m,temp:entier
+Debut
+  ecrire("enter tow number")
+  lire(N1,N2)
+  si N1 * N2 >0 alors 
+    temp <-n
+    n=m
+    m=temp
+    print(" after swap first input = ",n,"Second = ",m)
+  sinon 
+    ecrire("Addition = ",n+m)
+    ecrire("Multiplication",n*m)
+  fin si 
+fin
